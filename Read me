@@ -1,1 +1,30 @@
-What are the steps?
+Home Loan Approval EDA and Prediction
+This EDA and prediction project aims to explore the factors that influence home loan approval and to develop a model that can predict the likelihood of approval for a given borrower.
+The project uses a dataset of home loan approval to train a machine learning model.
+Once the model is trained, it can be used to predict the likelihood of approval for new loan applications.
+Here's a brief explanation of each column:
+Loan_ID: A unique identifier for each loan application.
+
+Gender: The gender of the loan applicant (e.g., Male, Female).
+
+Married: Marital status of the applicant (e.g., Yes, No).
+
+Dependents: The number of dependents of the applicant (e.g., 0, 1, 2, 3+).
+
+Education: The educational background of the applicant (e.g., Graduate, Not Graduate).
+
+Self_Employed: Indicates whether the applicant is self-employed (e.g., Yes, No).
+
+ApplicantIncome: The income of the primary applicant.
+
+CoapplicantIncome: The income of the co-applicant (if any).
+
+LoanAmount: The loan amount requested by the applicant.
+
+Loan_Amount_Term: The term or duration of the loan in months.
+
+Credit_History: A binary variable indicating the credit history of the applicant (e.g., 1 for good credit history, 0 for bad credit history).
+
+Property_Area: The area or location of the property for which the loan is requested (e.g., Urban, Rural, Semiurban).
+
+Loan_Status: The target variable indicating whether the loan was approved or not (e.g., Y for Yes, N for No).
